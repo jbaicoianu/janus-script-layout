@@ -1,7 +1,7 @@
 room.registerElement('circularlayout', {
   radius: 1,
 
-  createChildren: function() {
+  create: function() {
     var spacing = -2 * Math.PI / this.children.length;
     var children = this.children;
     for (var i = 0; i < children.length; i++) {
