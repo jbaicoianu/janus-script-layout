@@ -2,7 +2,7 @@ room.registerElement('horizontallayout', {
   spacing: 1,
   offset: V(1,0,0),
   // FIXME - need proxy inheritance so we don't need to duplicate this function
-  createChildren: function() {
+  create: function() {
     var children = this.children;
     console.log('children!', children);
     var i = 0;
